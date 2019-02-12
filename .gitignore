@@ -1,6 +1,7 @@
 src/main/resources/
 .gradle/
 build/
+.idea/
 # Compiled class file
 *.class
 

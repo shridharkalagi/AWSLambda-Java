@@ -108,7 +108,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/lambda-selenium1/stage/1549968127884-2019-02-12T10:42:07.884Z/lambda-selenium.jar"
+                "S3Key": "serverless/lambda-selenium1/stage/1549970782137-2019-02-12T11:26:22.137Z/lambda-selenium.jar"
               },
               "FunctionName": "lambda-selenium-function1",
               "Handler": "com.blackboard.testing.lambda.LambdaTestHandler::handleRequest",
@@ -172,7 +172,7 @@
     "layers": {}
   },
   "package": {
-    "artifactDirectoryName": "serverless/lambda-selenium1/stage/1549968127884-2019-02-12T10:42:07.884Z",
+    "artifactDirectoryName": "serverless/lambda-selenium1/stage/1549970782137-2019-02-12T11:26:22.137Z",
     "artifact": "lambda-selenium.jar"
   }
 }
