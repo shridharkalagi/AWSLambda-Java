@@ -1,5 +1,6 @@
 src/main/resources/
 .gradle/
+.serverless
 build/
 .idea/
 # Compiled class file
@@ -18,7 +19,6 @@ build/
 *.war
 *.nar
 *.ear
-*.zip
 *.tar.gz
 *.rar
 
