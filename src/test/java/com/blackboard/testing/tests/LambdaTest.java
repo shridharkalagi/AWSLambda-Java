@@ -13,42 +13,42 @@ import org.junit.experimental.categories.Category;
 public class LambdaTest extends LambdaBaseTest {
 
     @Test
-    public void googleTest() {
-        open("http://www.google.com/");
-        screenshot("google-home-page");
-        assertThat(title(), containsString("Google"));
+    public void Test1() {
+        open("http://www.thoughtworks.com/");
+        screenshot("Thoughtworks");
+        assertThat(title(), containsString("ThoughtWorks"));
     }
 
     @Test
-    public void blackboardTest() {
-        open("http://www.blackboard.com/");
-        screenshot("blackboard-home-page");
-        assertThat(title(), containsString("Blackboard"));
+    public void Test2() {
+        open("http://stackoverflow.com/");
+        screenshot("stackoverflow");
+        assertThat(title(), containsString("Stack Overflow"));
     }
     @Test
-    public void googleTest1() {
-        open("http://www.google.com/");
-        screenshot("google-home-page2");
-        assertThat(title(), containsString("Google"));
+    public void Test3() {
+        open("http://serverless.com/");
+        screenshot("serverless");
+        assertThat(title(), containsString("Serverless"));
     }
 
     @Test
-    public void blackboardTest2() {
+    public void Test4() {
         open("http://www.blackboard.com/");
         screenshot("blackboard-home-page2");
         assertThat(title(), containsString("Blackboard"));
     }
     @Test
-    public void googleTest3() {
+    public void Test5() {
         open("http://www.google.com/");
         screenshot("google-home-page4");
         assertThat(title(), containsString("Google"));
     }
 
     @Test
-    public void blackboardTest3() {
-        open("http://www.blackboard.com/");
-        screenshot("blackboard-home-page4");
-        assertThat(title(), containsString("Blackboard"));
+    public void Test6() {
+        open("http://medium.com/");
+        screenshot("medium");
+        assertThat(title(), containsString("Medium"));
     }
 }
